@@ -1,31 +1,22 @@
 .body {
-
-    /* Gradiente vermelho kik com cinza claro */
-
     /* background: #ff4040;
     background: -webkit-linear-gradient(150deg, #ff4040 0%, #dccfcf 100%);
     background: linear-gradient(150deg, #ff4040 0%, #dccfcf 100%); */
 
-    /* Shadow vermelho kik */
-
-    /*-webkit-box-shadow: 50px 50px 80px 50px #FF4040;
+    /* -webkit-box-shadow: 50px 50px 80px 50px #FF4040;
     -moz-box-shadow: 50px 50px 80px 50px #FF4040;
-    box-shadow: 50px 50px 80px 50px #FF4040;*/
+    box-shadow: 50px 50px 80px 50px #FF4040; */
 
-    /* Gradiente linear vermelho kik com cinza */
 
     /* background-image: linear-gradient(30deg, #a0a0a0 12%, transparent 12.5%, transparent 87%, #a0a0a0 87.5%, #a0a0a0), linear-gradient(150deg, #a0a0a0 12%, transparent 12.5%, transparent 87%, #a0a0a0 87.5%, #a0a0a0), linear-gradient(30deg, #a0a0a0 12%, transparent 12.5%, transparent 87%, #a0a0a0 87.5%, #a0a0a0), linear-gradient(150deg, #a0a0a0 12%, transparent 12.5%, transparent 87%, #a0a0a0 87.5%, #a0a0a0), linear-gradient(60deg, rgba(160, 160, 160, 0.5) 25%, transparent 25.5%, transparent 75%, rgba(160, 160, 160, 0.5) 75%, rgba(160, 160, 160, 0.5)), linear-gradient(60deg, rgba(160, 160, 160, 0.5) 25%, transparent 25.5%, transparent 75%, rgba(160, 160, 160, 0.5) 75%, rgba(160, 160, 160, 0.5));
     background-size: 200px 350px;
     background-position: 0 0, 0 0, 100px 175px, 100px 175px, 0 0, 100px 175px;
-    background-color: #ff4040;  */
-
-    /* Gradiente radial vermelho kik com branco */
+    background-color: #ff4040; */
 
     /* background-image: radial-gradient(#ff4040 0.5px, transparent 0.5px);
     background-size: 100px 100px;
     background-color: #ffffff; */
 
-    background: #ffffff;
 
 }
 
@@ -79,9 +70,3 @@ ul li:hover {
             display: block;
             margin: 50px auto 50px auto;
         } */
-
-        .ul {
-
-            width: fit-content;
-            margin: 0 auto;
-        }
