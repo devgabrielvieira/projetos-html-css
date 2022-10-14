@@ -45,22 +45,14 @@ ul li:hover {
   margin: 0 auto;
 }
 
-<<<<<<< HEAD
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
 body {
   margin: 0;
-=======
-        @import url(//fonts.googleapis.com/css?family=Lato:300:400);
-
-body {
-  margin:0;
->>>>>>> 00be048667a004fd50af546aa234540fec0002cd
 }
 
 h1 {
   font-family: 'Lato', sans-serif;
-<<<<<<< HEAD
   font-weight: 300;
   letter-spacing: 2px;
   font-size: 48px;
@@ -85,35 +77,10 @@ p {
   fill: white;
   padding-right: 15px;
   display: inline-block;
-=======
-  font-weight:300;
-  letter-spacing: 2px;
-  font-size:48px;
-}
-p {
-  font-family: 'Lato', sans-serif; 
-  letter-spacing: 1px;
-  font-size:14px;
-    color: #333333;
-}
-
-.header {
-  position:relative;
-  text-align:center;
-  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, #ff4040 100%);
-  color:white;
-}
-.logo {
-  width:50px;
-  fill:white;
-  padding-right:15px;
-  display:inline-block;
->>>>>>> 00be048667a004fd50af546aa234540fec0002cd
   vertical-align: middle;
 }
 
 .inner-header {
-<<<<<<< HEAD
   height: 65vh;
   width: 100%;
   margin: 0 0 -150px 0;
@@ -122,15 +89,6 @@ p {
 
 .flex {
   /*Flexbox para contêineres*/
-=======
-  height:65vh;
-  width:100%;
-  margin: 0 0 -140px 0;
-  padding: 0;
-}
-
-.flex { /*Flexbox para contêineres*/
->>>>>>> 00be048667a004fd50af546aa234540fec0002cd
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,7 +96,6 @@ p {
 }
 
 .waves {
-<<<<<<< HEAD
   position: relative;
   width: 100%;
   height: 15vh;
@@ -152,26 +109,11 @@ p {
   position: relative;
   height: 20vh;
   text-align: center;
-=======
-  position:relative;
-  width: 100%;
-  height:15vh;
-  margin-bottom:-7px; /*Correção para a lacuna do safári*/
-  min-height:100px;
-  max-height:150px;
-}
-
-.content {
-  position:relative;
-  height:20vh;
-  text-align:center;
->>>>>>> 00be048667a004fd50af546aa234540fec0002cd
   background-color: white;
 }
 
 /* Animação */
 
-<<<<<<< HEAD
 .parallax>use {
   animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
 }
@@ -219,51 +161,10 @@ p {
 
   h1 {
     font-size: 24px;
-=======
-.parallax > use {
-  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
-}
-.parallax > use:nth-child(1) {
-  animation-delay: -2s;
-  animation-duration: 7s;
-}
-.parallax > use:nth-child(2) {
-  animation-delay: -3s;
-  animation-duration: 10s;
-}
-.parallax > use:nth-child(3) {
-  animation-delay: -4s;
-  animation-duration: 13s;
-}
-.parallax > use:nth-child(4) {
-  animation-delay: -5s;
-  animation-duration: 20s;
-}
-@keyframes move-forever {
-  0% {
-   transform: translate3d(-90px,0,0);
-  }
-  100% { 
-    transform: translate3d(85px,0,0);
-  }
-}
-/*Encolhimento para celular*/
-@media (max-width: 768px) {
-  .waves {
-    height:40px;
-    min-height:40px;
-  }
-  .content {
-    height:30vh;
-  }
-  h1 {
-    font-size:24px;
->>>>>>> 00be048667a004fd50af546aa234540fec0002cd
   }
 }
 
 label {
-<<<<<<< HEAD
   display: block;
   font: .9rem 'Lato', sans-serif;
   letter-spacing: 1px;
@@ -305,20 +206,4 @@ input:hover {
 .href{
   font-size: 15px;
   color: white;
-=======
-    display: block;
-    font: .9rem 'Fira Sans', sans-serif;
-
-}
-
-input[type='submit'],
-label {
-    margin-top: 1rem;
-}
-
-.login{
-
-    margin: 0 0 80px 0;
-
->>>>>>> 00be048667a004fd50af546aa234540fec0002cd
 }
