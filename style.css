@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
+
 .titulo {
   text-align: center;
   font-size: 38px;
   font-weight: 900;
   margin: 20px auto 20px auto;
   color: #ff4040;
-
-
 }
 
 .emoji {
@@ -167,43 +167,63 @@ p {
 label {
   display: block;
   font: .9rem 'Lato', sans-serif;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 700;
   letter-spacing: 1px;
   font-size: 18px;
   color: white;
-
+  margin-bottom: 3px;
 }
-
 
 input[type='submit'],
 label {
   margin-top: 1rem;
   font-size: 16px;
-
+  font-family: 'Figtree', sans-serif;
+  font-weight: 700;
+  color: #fff;
 }
 
 input {
 
-  caret-color: black;
-
+  caret-color: #222;
+  color: #333333;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 700;
   border: 2px solid rgba(84, 58, 183, 1);
   border-radius: 36px;
-  padding: 5px 15px;
+  padding: 7px 15px;
   text-align: center;
 }
 
 input:hover {
 
   border: 2px solid #FF4040;
- 
- }
+}
 
 .login {
 
   margin: 0 0 30px 0;
-
 }
 
-.href{
-  font-size: 15px;
+.href {
+  font-size: 12px;
   color: white;
+}
+
+.btn-entrar {
+  background: #FF4040;
+  border: 2px solid #f03535;
+  padding: 9px 15px;
+  width: 180px;
+  max-width: 90%;
+}
+
+.btn-recuperar {
+
+  background: #FF4040;
+  border: 2px solid #f03535;
+  padding: 9px 15px;
+  width: 180px;
+  max-width: 90%;
 }
