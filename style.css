@@ -236,7 +236,7 @@ input:hover {
   padding: 0;
 }
 
-.flex {
+.flex1 {
   /*Flexbox para contêineres*/
   display: flex;
   justify-content: center;
