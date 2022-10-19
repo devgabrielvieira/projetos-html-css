@@ -6,6 +6,7 @@
   font-weight: 900;
   margin: 20px auto 20px auto;
   color: #ff4040;
+  font-family: 'Figtree' sans-serif;
 }
 
 .emoji {
@@ -52,14 +53,14 @@ body {
 }
 
 h1 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif; 
   font-weight: 300;
   letter-spacing: 2px;
   font-size: 48px;
 }
 
 p {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif; 
   letter-spacing: 1px;
   font-size: 14px;
   color: #333333;
@@ -83,7 +84,7 @@ p {
 .inner-header {
   height: 65vh;
   width: 100%;
-  margin: 0 0 -170px 0;
+  margin: 0 0 -170px 0; /*Alteração de margin de -150px para -170px teste safári*/
   padding: 0;
 }
 
@@ -166,7 +167,7 @@ p {
 
 label {
   display: block;
-  font: .9rem 'Lato', sans-serif;
+  /* font: .9rem 'Lato', sans-serif; */
   font-family: 'Figtree', sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
@@ -226,4 +227,19 @@ input:hover {
   padding: 9px 15px;
   width: 180px;
   max-width: 90%;
+}
+
+.div1 {
+  height: 40vh;
+  width: 100%;
+  margin: 0 0 -170px 0x; /*Alteração de margin de -150px para -170px teste safári*/
+  padding: 0;
+}
+
+.flex {
+  /*Flexbox para contêineres*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
