@@ -38,11 +38,10 @@ ul li {
 }
 
 ul li:hover {
-  border: 2px solid #a0a0a0;
+  border: 2px solid #cb5eee;
 }
 
 .ul {
-
   width: fit-content;
   margin: 0 auto;
 }
@@ -68,7 +67,6 @@ h1 {
   margin: 20px auto 20px auto;
   color: #fff;
   width: auto;
-  /* max-width: 30%; */
 }
 
 h2 {
@@ -220,7 +218,6 @@ label {
 }
 
 input {
-
   caret-color: #222;
   color: #333333;
   font-family: 'Figtree', sans-serif;
@@ -232,12 +229,14 @@ input {
 }
 
 input:hover {
-
   border: 2px solid #FF4040;
 }
 
 .login {
+  margin: 0 0 30px 80px;
+}
 
+.login-recuperar {
   margin: 0 0 30px 80px;
 }
 
@@ -256,7 +255,6 @@ input:hover {
 }
 
 .btn-recuperar {
-
   background: #FF4040;
   border: 2px solid #f03535;
   padding: 9px 15px;
