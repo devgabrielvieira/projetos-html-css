@@ -12,7 +12,7 @@
 ul li a {
   text-decoration: none;
   text-align: center;
-  color: #000000;
+  color: #333333;
 }
 
 ul li a:hover {
@@ -30,19 +30,19 @@ ul li {
 }
 
 ul li:hover {
-  border: 2px solid #cb5eee;
+  border: 2px solid #a0a0a0;
 }
 
 @media not all and (min-resolution:.001dpcm) { 
   @media {
-      /* Your Class */
+
   }
 
 /* @media (max-width: 768px) { */
   ul li a {
     text-decoration: none;
     text-align: center;
-    color: #000000;
+    color: #333333;
   }
 
   ul li a:hover {
@@ -61,7 +61,7 @@ ul li:hover {
   }
 
   ul li:hover {
-    border: 2px solid #cb5eee;
+    border: 2px solid #a0a0a0;
   }
 
   .header {
@@ -69,7 +69,7 @@ ul li:hover {
     text-align: center;
     display: inline-flex;
     background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, #ff4040 100%);
-    color: white;
+    color: #fff;
   }
 
   .header1 {
@@ -77,7 +77,7 @@ ul li:hover {
     text-align: center;
     display: inline-block;
     background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, #ff4040 100%);
-    color: white;
+    color: #fff;
   }
 
   .login {
@@ -168,19 +168,19 @@ p {
   position: relative;
   text-align: center;
   background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, #ff4040 100%);
-  color: white;
+  color: #fff;
 }
 
 .header1 {
   position: relative;
   text-align: center;
   background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, #ff4040 100%);
-  color: white;
+  color: #fff;
 }
 
 .logo {
   width: 50px;
-  fill: white;
+  fill: #fff;
   padding-right: 15px;
   display: inline-block;
   vertical-align: middle;
@@ -216,7 +216,7 @@ p {
   position: relative;
   height: 20vh;
   text-align: center;
-  background-color: white;
+  background-color: #fff;
 }
 
 /* Animação */
@@ -277,7 +277,7 @@ label {
   font-weight: 700;
   letter-spacing: 2px;
   font-size: 18px;
-  color: white;
+  color: #fff;
   margin-bottom: 3px;
 }
 
@@ -295,14 +295,14 @@ input {
   color: #333333;
   font-family: 'Figtree', sans-serif;
   font-weight: 700;
-  border: 2px solid rgba(84, 58, 183, 1);
+  border: 2px solid #FF4040;
   border-radius: 36px;
   padding: 7px 15px;
   text-align: center;
 }
 
 input:hover {
-  border: 2px solid #FF4040;
+  border: 2px solid #a0a0a0;
 }
 
 .login {
@@ -318,14 +318,14 @@ input:hover {
 }
 
 .href {
-  font-size: 12px;
-  color: white;
+  font-size: 13px;
+  color: #fff;
   text-align: center;
 }
 
 .btn-entrar {
   background: #FF4040;
-  border: 2px solid #f03535;
+  border: 2px solid #fff;
   padding: 9px 15px;
   width: 180px;
   max-width: 90%;
@@ -333,7 +333,8 @@ input:hover {
 
 .btn-recuperar {
   background: #FF4040;
-  border: 2px solid #f03535;
+  border: 2px solid #fff;
+  /* border: 2px solid #f03535; */
   padding: 9px 15px;
   width: 180px;
   max-width: 90%;
