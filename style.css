@@ -33,7 +33,12 @@ ul li:hover {
   border: 2px solid #cb5eee;
 }
 
-@media (max-width: 768px) {
+@media not all and (min-resolution:.001dpcm) { 
+  @media {
+      /* Your Class */
+  }
+
+/* @media (max-width: 768px) { */
   ul li a {
     text-decoration: none;
     text-align: center;
