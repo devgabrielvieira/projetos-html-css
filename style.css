@@ -50,7 +50,7 @@ ul li:hover {
     padding: 18px 35px;
     margin: 7px;
     text-align: center;
-    width: 22%;
+    width: 18%;
     height: auto;
     display: inline-flex;
   }
@@ -58,110 +58,23 @@ ul li:hover {
   ul li:hover {
     border: 2px solid #cb5eee;
   }
-
-  .ul {
-    width: fit-content;
-    margin: 0 auto;
-  }
-
-  h1 {
-    font-family: 'Figtree', sans-serif;
-    font-weight: 700;
-    letter-spacing: 2px;
-    font-size: 48px;
-  }
   
-  .div-h1 {
-    font-family: 'Figtree', sans-serif;
-    font-weight: 700;
-    letter-spacing: 2px;
-    font-size: 48px;
-    text-align: center;
-    font-size: 48px;
-    margin: 20px auto 20px auto;
-    color: #fff;
-    width: auto;
-  }
-  
-  h2 {
-    font-family: 'Figtree', sans-serif;
-    font-weight: 200;
-    letter-spacing: 2px;
-    font-size: 25px;
-    text-align: center;
-    font-size: 40px;
-    margin: 20px auto 10px auto;
-    color: #ff4040;
-  }
-  
-  .div-h2 {
-    font-family: 'Figtree', sans-serif;
-    font-weight: 600;
-    letter-spacing: 2px;
-    font-size: 25px;
-    text-align: center;
-    font-size: 40px;
-    margin: 20px auto 10px auto;
-    color: #ff4040;
-  }
-  
-  p {
-    font-family: 'Figtree', sans-serif;
-    letter-spacing: 1px;
-    font-size: 14px;
-    color: #333333;
-  }
-  
-  .header {
+  .header-mobile {
     position: relative;
     text-align: center;
     display: inline-flex ;
     background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, #ff4040 100%);
     color: white;
   }
-  
-  .logo {
-    width: 50px;
-    fill: white;
-    padding-right: 15px;
-    display: inline-block;
-    vertical-align: middle;
-  }
-  
-  .inner-header {
-    height: 65vh;
-    width: 100%;
-    margin: 0 0 -170px 0;
-    /*Alteração de margin de -150px para -170px teste safári*/
-    padding: 0;
-  }
-  
-  .flex {
-    /*Flexbox para contêineres*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .waves {
-    position: relative;
-    width: 100%;
-    height: 15vh;
-    margin-bottom: -7px;
-    /*Correção para a lacuna do safári*/
-    min-height: 100px;
-    max-height: 150px;
-  }
-  
-  .content {
-    position: relative;
-    height: 20vh;
-    text-align: center;
-    background-color: white;
+
+  .login-mobile {
+    margin: -50px 50px 30px 80px;
+    width: -100%; 
+    display: inline-block; 
   }
 
- }
+}
+   
 
 .ul {
   width: fit-content;
@@ -324,7 +237,7 @@ label {
   display: block;
   font-family: 'Figtree', sans-serif;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-size: 18px;
   color: white;
   margin-bottom: 3px;
@@ -333,7 +246,7 @@ label {
 input[type='submit'],
 label {
   margin-top: 1rem;
-  font-size: medium;
+  /* font-size: medium; */
   font-family: 'Figtree', sans-serif;
   font-weight: 700;
   color: #fff;
@@ -359,8 +272,11 @@ input:hover {
 }
 
 .login-recuperar {
-  margin: 0 0 30px 80px;
-}
+  /* margin: 0 0 30px 80px; */
+  width: -100%; 
+  display: inline-block; 
+  margin: 0 -50px 30px -5px;
+  }
 
 .href {
   font-size: 12px;
