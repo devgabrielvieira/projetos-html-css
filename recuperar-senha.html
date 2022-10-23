@@ -7,27 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon_kik.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <style>
+        h1 {
+            width: -100%;
+            display: inline-flex;
+            margin: 0 50px 0 0;
+        }
+    </style>
     <title>KIK Dev</title>
 </head>
 
 <body>
 
     <div class="header">
-        <!--Conteúdo antes das ondas-->
+
         <div class="inner-header flex">
             <!--Logotipo-->
             <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
             <lord-icon src="https://cdn.lordicon.com/ggqtvqxi.json" trigger="loop"
                 colors="primary:#ff4040,secondary:#cb5eee" style="width:95px;height:95px">
             </lord-icon>
-            <h1 style="width: -100%; display: inline-flex; margin: 0 50px 0 0;">Ok, vamos recuperar sua senha</h1>
+            <h1>Ok, vamos recuperar sua senha</h1>
         </div>
         <div class="login-recuperar">
             <input type="text" id="username" name="username">
             <br>
             <input class="btn-recuperar" type="submit" value="Recuperar senha">
         </div>
-        <!--Contêiner de Ondas-->
         <div>
             <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
@@ -43,10 +49,8 @@
                 </g>
             </svg>
         </div>
-        <!--Fim das ondas-->
-
     </div>
-    <!--Fim do cabeçalho-->
+
 </body>
 
 </html>
